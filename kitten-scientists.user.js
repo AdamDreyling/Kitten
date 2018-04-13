@@ -13,7 +13,7 @@
 // Begin Kitten Scientist's Automation Engine
 // ==========================================
 
-var version = 'Kitten Scientists version 1.3.2';
+var version = 'Kitten Scientists version 1.3.3';
 var address = '1AQ1AC9W5CEAPgG5739XGXC5vXqyafhoLp';
 // Game will be referenced in loadTest function
 var game = null;
@@ -176,6 +176,7 @@ var run = function() {
                     // Helios
                     sunlifter:          {require: 'eludium', enabled: false},
                     containmentChamber: {require: 'science', enabled: false},
+                    heatsink: {require: 'science', enabled: false},
 
                     // T-Minus
                     cryostation:    {require: 'eludium',     enabled: false},
