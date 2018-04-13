@@ -193,7 +193,7 @@ var run = function() {
                     hrHarvester: {require: 'antimatter', enabled: false},
                     
                     // Charon
-                    entanglementSt: {require: 'eludium', enabled: false},
+                   // entanglementSt: {require: 'eludium', enabled: false},
                     
                     // Centaurus
                     tectonic: {require: 'antimatter', enabled: false}
